@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'AlphabetNumberFont';
+    src: url('../fonts/Inika-Regular.ttf') format('woff2');
+    unicode-range: U+0030-0039, U+0041-005A, U+0061-007A;
+}
+
+body, h2, input {
+    font-family: 'AlphabetNumberFont', sans-serif;
+    font-weight: 400;
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+.header {
+    background: #ffffff;
+    border-bottom: 2px solid #ededed;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-logo {
+    color: #9f9182;
+}

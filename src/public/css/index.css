@@ -1,0 +1,211 @@
+.contact-form-content {
+    margin: 0 auto;
+}
+
+.contact-form-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.contact-form-title {
+    color: #9f9182;
+    margin: 0;
+}
+
+.form {
+    width: fit-content;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    max-width: 1012px;
+}
+
+.form-group-title {
+    min-width: 164px;
+}
+
+.form-label-item {
+    color: #ac9f93;
+}
+
+.form-label-required {
+    border-radius: 3px;
+    background: #fffcfc;
+    color: #ffacab;
+}
+
+.form-error {
+    height: 20px;
+    color: red;
+    text-align: left;
+}
+
+.form-group-content {
+    margin-left: 180px;
+}
+
+.form-input-text {
+    width: 544px;
+}
+
+.form-input-text input,
+.form-select select {
+    height: 40px;
+    background: #f4f4f4;
+    border: none;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form-input-text input,
+.form-textarea textarea {
+    color: #ac9f93;
+}
+
+.form-input-text input::placeholder{
+    color: #d7d0ca;
+    opacity: 1;
+}
+
+.form-input-name-last_name {
+    width: 250px;
+    padding-left: 25px;
+}
+
+.form-input-name-first_name {
+    width: 250px;
+    margin-left: 40px;
+    padding-left: 25px;
+}
+
+.form-input-radio {
+    display: flex;
+    margin-left: 15px;
+}
+
+.form-input-radio label input[type="radio"] {
+    opacity: 0;
+    appearance: none;
+    position: absolute;
+}
+
+.form-input-radio-span {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 30px;
+    width: 74px;
+    color: #ac9f93;
+}
+
+.form-input-radio-span::before {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #e2dedb;
+    background: #fff;
+    content: "";
+    border-radius: 50%;
+}
+
+.form-input-radio-span::after {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #8b7969;
+    content: "";
+    opacity: 0;
+}
+
+.form-input-radio label input:checked + span::after {
+    opacity: 1;
+}
+
+.form-input-email {
+    width: 543px;
+    padding-left: 25px;
+}
+
+.form-input-tel {
+    width: 161px;
+    text-align: center;
+}
+
+.form-input-tel-span {
+    display: inline-block;
+    width: 23px;
+    text-align: center;
+}
+
+.form-input-address {
+    width: 543px;
+    padding-left: 25px;
+}
+
+.form-input-building{
+    width: 543px;
+    padding-left: 25px;
+}
+
+.form-select::after {
+    content: "";
+    position: relative;
+    top: 22px;
+    right: 50px;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 12px solid #beb2a6;
+    border-bottom: 0;
+}
+
+.form-select-category {
+    width: 300px;
+    padding-left: 25px;
+    color:#d7d0ca;
+}
+
+.form-select-category option {
+  color: #ac9f93;
+}
+
+.form-select-category-option {
+    display:none;
+}
+
+.form-textarea textarea {
+    background: #f4f4f4;
+    border: none;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form-textarea textarea::placeholder{
+    color: #d7d0ca;
+    opacity: 1;
+}
+
+.form-textarea-detail {
+    resize: none;
+    width: 543px;
+    padding: 15px 25px;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button-submit {
+    border: none;
+    background-color: #82756b;
+    color: white;
+    padding: 5px 25px;
+}

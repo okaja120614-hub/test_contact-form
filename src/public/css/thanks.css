@@ -1,0 +1,32 @@
+.thanks-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.thanks-content-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 130px;
+    color: #f9f8f8;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.thanks-content-h2 {
+    color: #8d7b6b;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.thanks-content-button-home {
+    border: none;
+    background-color: #82756b;
+    color: white;
+    padding: 5px 25px;
+    z-index: 1;
+}

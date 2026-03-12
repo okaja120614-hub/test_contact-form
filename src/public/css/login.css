@@ -1,0 +1,96 @@
+main {
+    margin-bottom: 0;
+}
+
+.head-button {
+    position: absolute;
+    right: 50px;
+}
+
+.head-button-register {
+    text-align: center;
+    width: 60px;
+    border: 1px solid #ebe3da;
+    background-color: #f6f6f6;
+    color: #ebe3da;
+}
+
+.login-form-content {
+    margin: 0 auto;
+    background-color: #f1ece6;
+    padding-bottom: 50px;
+}
+
+.login-form-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.login-form-title {
+    color: #9f9182;
+}
+
+.form {
+    width: fit-content;
+    margin: auto;
+}
+
+.form-area {
+    border: 1px solid #e8e2dc;
+    border-radius: 3px;
+    background: white;
+    width: 600px;
+}
+
+.form-group {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-group-title {
+    margin-bottom: 5px;
+    color: #ac9f93;
+}
+
+.form-error {
+    height: 20px;
+    color: red;
+    text-align: center;
+}
+
+.form-input-text input {
+    height: 40px;
+    background: #f4f4f4;
+    border: none;
+    border-radius: 3px;
+    appearance: none;
+    color: #ac9f93;
+    padding-left: 25px;
+}
+
+.form-input-text input::placeholder{
+    color: #d7d0ca;
+    opacity: 1;
+}
+
+.form-group-title-email {
+    padding-right: 90px;
+}
+
+.form-group-title-password {
+    padding-right: 120px;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button-submit {
+    border: none;
+    background-color: #82756b;
+    color: white;
+    padding: 5px 25px;
+    margin: 40px 0;
+}
